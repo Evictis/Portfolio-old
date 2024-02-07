@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(305deg, #000000, #5d5843, #e1d5ac);
+    /*#000000, #4b4942, #ffffff);*/
+    background-size: 600% 600%;
+
+    -o-animation: AnimationName 16s ease infinite;
+    animation: AnimationName 16s ease infinite;
+}
+
+@-o-keyframes AnimationName {
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
+}
+
+header {
+    /*background-color: #333;*/
+    background: rgba(189, 189, 189, 0.3);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 15px;
+}
+
+section {
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: rgba(189, 189, 189, 0.3);
+    color: white;
+}
+.selfie {
+    display: block;
+    width: 300px;
+    margin: auto;
+    border:#e1d5ac solid 2px;
+    border-radius: 50%;
+}
